@@ -1,6 +1,9 @@
 {
   "name": "nodebb-theme-crp",
   "version": "1.0.0",
+  "nbbpm": {
+    "compatibility": "^1.13.0"
+  },
   "description": "The Chronicles RP default theme.",
   "main": "theme.less",
   "keywords": [],
