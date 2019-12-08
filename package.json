@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "The Chronicles RP default theme.",
   "main": "theme.less",
-  "keywords": [
-
-  ],
+  "keywords": [],
   "license": "MIT"
 }
