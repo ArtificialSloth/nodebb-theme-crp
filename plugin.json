@@ -1,10 +1,9 @@
 {
 	"id": "nodebb-theme-crp",
-	"library": "./lib/theme.js",
+	"library": "./lib/crp.js",
 	"hooks": [
-		{
-			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas"
-		}
+		{"hook": "static:app.load", "method": "init"},
+		{"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas"}
 	],
 	"scripts": [
 		"lib/client.js",
@@ -15,5 +14,7 @@
 	],
 	"modules": {
 		"pulling.js": "node_modules/pulling/build/pulling-drawer.js"
-	}
+	},
+	"languages": "languages",
+	"defaultLang": "en-GB"
 }
